@@ -5,10 +5,10 @@ import pickle
 
 
 #import the model
-loaded_model = pickle.load(open('Language_detection/lang_model.sav', 'rb'))
+loaded_model = pickle.load(open('../models-dump/lang_model.sav', 'rb'))
 
 #import the bow model
-bow_model = pickle.load(open('Language_detection/bow_model.sav', 'rb'))
+bow_model = pickle.load(open('../models-dump/bow_model.sav', 'rb'))
 
 #classification function
 def predict_lang(text):

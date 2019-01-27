@@ -10,10 +10,9 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser, FileUploadParser
 from rest_framework import status
-from Language_detection.classify import predict_lang
-from Sentiment_analysis.classiy import predict_sentiment_ara,predict_sentiment_tun
+from .classifyLanguage import predict_lang
+from .sentimentAnalysis import predict_sentiment_ara,predict_sentiment_tun
 from django.http import FileResponse
-#class Languagecheck(APIView)
 
 
 

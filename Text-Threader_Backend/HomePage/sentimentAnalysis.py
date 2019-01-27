@@ -1,10 +1,10 @@
 import pickle
 
 
-loaded_model_ara = pickle.load(open('Sentiment_analysis/sentiment_analysis_model_ara.sav', 'rb'))
-loaded_model_tun = pickle.load(open('Sentiment_analysis/sentiment_analysis_model_tun.sav', 'rb'))
-bow_model_ara = pickle.load(open('Sentiment_analysis/bow_model_ara.sav', 'rb'))
-bow_model_tun = pickle.load(open('Sentiment_analysis/bow_model_tun.sav', 'rb'))
+loaded_model_ara = pickle.load(open('../models-dump/sentiment_analysis_model_ara.sav', 'rb'))
+loaded_model_tun = pickle.load(open('../models-dump/sentiment_analysis_model_tun.sav', 'rb'))
+bow_model_ara = pickle.load(open('../models-dump/bow_model_ara.sav', 'rb'))
+bow_model_tun = pickle.load(open('../models-dump/bow_model_tun.sav', 'rb'))
 
 
 def predict_sentiment_ara(text):

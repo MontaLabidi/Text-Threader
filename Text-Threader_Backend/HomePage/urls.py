@@ -8,7 +8,7 @@ from rest_framework import routers
 # router.register(r'upload', FileView, 'upload')
 
 
-app_name = 'Language'
+app_name = 'HomePage'
 
 urlpatterns = [
 

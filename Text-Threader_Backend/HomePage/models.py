@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Language(models.Model):
+class Text(models.Model):
     name = models.CharField(max_length=20)
 
 
