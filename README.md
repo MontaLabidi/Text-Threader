@@ -12,30 +12,30 @@ multiple text documents.
 
 ### Features
 
-* Detects the language of a text written in any type of characters
+* Detects the language of a text written in any character encoding (_Arabic_ / _Tunisian_/ _Other_)
 
-* Analyse the Sentiment of a text written in any type of characters
+* Analyse the Sentiment of a text written in any character encoding (_Negative_ / _Positive_/ _Other_)
 
 * Supports streaming multiple files with texts to classify and analyse 
 
 # Getting Started
 
-### Pre-requisites
+## Pre-requisites
 
 For building and running the application you need:
 
 * Backend:
     - [Python 3.6](https://www.python.org/)
-    - [Django 2](https://www.djangoproject.com/download/)
+    - [Django 2.1](https://www.djangoproject.com/download/)
 
 * Frontend:
     - [Node.js](https://nodejs.org/en/download/)
     - [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
 
 
-### Installation
+## Installation
 
-#### Classification Model Setup
+### Classification Model Setup
 
 This step is optional if you are just looking to use the application since it is already set up with the needed models,
 but if you want to tweak on the classification models used then install [Jupyter notebook](https://jupyter.org/) and open
@@ -67,7 +67,7 @@ the following notebooks:
 After making changes to the pipelines, its just a matter of running them to dump all the models that the Backend will
 use to predict and analyse the texts.
 
-#### Backend 
+### Backend 
 
 For this step, we recommend setting up a virtual environment and activating it, this is optional:
  [Python 3 Virtual Environment Tutorial](https://docs.python.org/3/tutorial/venv.html)
